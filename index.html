@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Palabras</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img class="logoImg" src="img/logo.png">
+        <h1 class="title">Encriptador Alura Challenge N° 1</h1>
+      </div>
+      <div class="left">
+        <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto a codificar">
+      </div>
+      <div class="right">
+        <img src="img/muñeco.png" id="imgDer">
+        <h1 id="texto">Ningun mensaje fue encontrado</h1>
+        <textarea id="texto2" name="name" cols="80" rows="8">Ingrese el texto que desees encriptar o desencriptar</textarea>
+        <button id="copiar" type="button" name="button" onclick="copy()" value="Click">¡Copiar!</button>
+      </div>
+      <div class="left-button">
+        <p>Solo letras minúsculas, sin caracteres especiales</p>
+        <button type="button" id="btn-encriptar" onclick="encriptar()" value="Click">Encriptar</button>
+        <button type="button" id="btn-desencriptar" onclick="desencriptar()" value="Click">Desencriptar</button>
+      </div>
+    </div>
+
+    <footer>Desarrollado por: Santiago Serrano | Alura Latam | Oracle ONE - v 1.0</footer>
+
+    <br><br>
+
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
